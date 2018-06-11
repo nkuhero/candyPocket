@@ -1,0 +1,1793 @@
+[25/May/2018 09:02:20] "GET /admin/candy/ HTTP/1.0" 200 3388
+[25/May/2018 09:02:20] "GET /static/admin/css/base.css HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/css/dashboard.css HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/css/fonts.css HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 0
+[25/May/2018 09:02:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[25/May/2018 09:02:21] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[25/May/2018 09:02:21] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[25/May/2018 09:02:21] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[25/May/2018 09:02:22] "GET /static/admin/css/changelists.css HTTP/1.0" 304 0
+[25/May/2018 09:02:22] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 0
+[25/May/2018 09:02:23] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6328
+[25/May/2018 09:02:23] "GET /static/admin/css/forms.css HTTP/1.0" 304 0
+[25/May/2018 09:02:23] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[25/May/2018 09:02:23] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[25/May/2018 09:02:23] "GET /static/admin/css/widgets.css HTTP/1.0" 304 0
+[25/May/2018 09:02:23] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[25/May/2018 09:06:02] "GET / HTTP/1.0" 200 1714
+[25/May/2018 10:16:27] "GET / HTTP/1.0" 200 1714
+[25/May/2018 10:24:53] "GET /admin/candy/ HTTP/1.0" 200 3388
+[25/May/2018 10:24:56] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[25/May/2018 10:24:56] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[25/May/2018 10:42:18] "GET /admin/candy/ HTTP/1.0" 200 3388
+[25/May/2018 10:42:20] "GET /admin/candy/activity/ HTTP/1.0" 200 4209
+[25/May/2018 10:42:20] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[25/May/2018 10:42:21] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 5113
+[25/May/2018 10:42:21] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[25/May/2018 11:27:37] "GET / HTTP/1.0" 200 1714
+[25/May/2018 11:49:19] "GET / HTTP/1.0" 200 1714
+[25/May/2018 11:53:15] "GET / HTTP/1.0" 200 1714
+[25/May/2018 12:51:53] "GET / HTTP/1.0" 200 1714
+[25/May/2018 13:16:06] "GET / HTTP/1.0" 200 1714
+[25/May/2018 14:07:37] "GET / HTTP/1.0" 200 1714
+[25/May/2018 15:58:25] "GET / HTTP/1.0" 200 1714
+[25/May/2018 15:58:42] "GET / HTTP/1.0" 200 1714
+Not Found: /hndUnblock.cgi
+[25/May/2018 16:05:10] "GET /hndUnblock.cgi HTTP/1.0" 404 1976
+Not Found: /tmUnblock.cgi
+[25/May/2018 16:05:13] "GET /tmUnblock.cgi HTTP/1.0" 404 1973
+Not Found: /moo
+[25/May/2018 16:05:17] "GET /moo HTTP/1.0" 404 1943
+[25/May/2018 16:05:21] "GET / HTTP/1.0" 200 1714
+Not Found: /getcfg.php
+[25/May/2018 16:05:24] "POST /getcfg.php HTTP/1.0" 404 1965
+Not Found: /getcfg.php
+[25/May/2018 16:05:31] "POST /getcfg.php HTTP/1.0" 404 1965
+Not Found: /webfig/roteros.info
+[25/May/2018 16:05:38] "GET /webfig/roteros.info HTTP/1.0" 404 1991
+[25/May/2018 16:05:39] "GET / HTTP/1.0" 200 1714
+[25/May/2018 16:15:51] "GET / HTTP/1.0" 200 1714
+[25/May/2018 16:22:56] "GET / HTTP/1.0" 200 1714
+Not Found: /muieblackcat
+[25/May/2018 17:07:42] "GET /muieblackcat HTTP/1.0" 404 1970
+Not Found: //phpMyAdmin/scripts/setup.php
+[25/May/2018 17:07:43] "GET //phpMyAdmin/scripts/setup.php HTTP/1.0" 404 2021
+Not Found: //phpmyadmin/scripts/setup.php
+[25/May/2018 17:07:44] "GET //phpmyadmin/scripts/setup.php HTTP/1.0" 404 2021
+Not Found: //pma/scripts/setup.php
+[25/May/2018 17:07:45] "GET //pma/scripts/setup.php HTTP/1.0" 404 2000
+Not Found: //myadmin/scripts/setup.php
+[25/May/2018 17:07:46] "GET //myadmin/scripts/setup.php HTTP/1.0" 404 2012
+Not Found: //MyAdmin/scripts/setup.php
+[25/May/2018 17:07:47] "GET //MyAdmin/scripts/setup.php HTTP/1.0" 404 2012
+[25/May/2018 19:51:49] "GET / HTTP/1.0" 200 1714
+[25/May/2018 20:56:10] "GET / HTTP/1.0" 200 1714
+[25/May/2018 22:18:17] "GET / HTTP/1.0" 200 1714
+[25/May/2018 22:50:58] "GET / HTTP/1.0" 200 1714
+[26/May/2018 00:09:26] "GET / HTTP/1.0" 200 1714
+Not Found: /admin/mysql/index.php
+[26/May/2018 01:16:10] "GET /admin/mysql/index.php HTTP/1.0" 404 4436
+[26/May/2018 01:33:54] "GET / HTTP/1.0" 200 1714
+[26/May/2018 02:11:20] "GET / HTTP/1.0" 200 1714
+[26/May/2018 02:19:23] "GET / HTTP/1.0" 200 1714
+[26/May/2018 04:45:34] "GET / HTTP/1.0" 200 1714
+Not Found: /manage/content/update.php
+[26/May/2018 05:33:21] "GET /manage/content/update.php HTTP/1.0" 404 2009
+[26/May/2018 06:06:33] "GET / HTTP/1.0" 200 1714
+[26/May/2018 06:33:16] "GET / HTTP/1.0" 200 1714
+[26/May/2018 06:48:39] "GET / HTTP/1.0" 200 1714
+[26/May/2018 06:53:36] "GET / HTTP/1.0" 200 1714
+[26/May/2018 07:11:54] "GET / HTTP/1.0" 200 1714
+[26/May/2018 07:27:38] "GET / HTTP/1.0" 200 1714
+[26/May/2018 08:50:24] "GET / HTTP/1.0" 200 1714
+[26/May/2018 09:04:02] "GET / HTTP/1.0" 200 1714
+[26/May/2018 09:25:48] "GET / HTTP/1.0" 200 1714
+[26/May/2018 09:46:19] "GET / HTTP/1.0" 200 1714
+[26/May/2018 10:15:06] "GET / HTTP/1.0" 200 1714
+Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+[26/May/2018 11:05:41] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.0" 404 2057
+Not Found: /phpMyAdmin/scripts/setup.php
+[26/May/2018 11:05:42] "GET /phpMyAdmin/scripts/setup.php HTTP/1.0" 404 2018
+Not Found: /phpmyadmin/scripts/setup.php
+[26/May/2018 11:05:43] "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 2018
+Not Found: /pma/scripts/setup.php
+[26/May/2018 11:05:43] "GET /pma/scripts/setup.php HTTP/1.0" 404 1997
+Not Found: /myadmin/scripts/setup.php
+[26/May/2018 11:05:44] "GET /myadmin/scripts/setup.php HTTP/1.0" 404 2009
+Not Found: /MyAdmin/scripts/setup.php
+[26/May/2018 11:05:45] "GET /MyAdmin/scripts/setup.php HTTP/1.0" 404 2009
+Not Found: /mysql-admin/index.php
+[26/May/2018 11:09:44] "GET /mysql-admin/index.php HTTP/1.0" 404 1997
+[26/May/2018 11:30:22] "GET / HTTP/1.0" 200 1714
+[26/May/2018 11:58:33] "GET / HTTP/1.0" 200 1714
+[26/May/2018 12:16:52] "GET / HTTP/1.0" 200 1714
+[26/May/2018 12:27:05] "GET / HTTP/1.0" 200 1714
+[26/May/2018 12:36:22] "GET / HTTP/1.0" 200 1714
+[26/May/2018 12:44:12] "GET / HTTP/1.0" 200 1714
+[26/May/2018 12:51:36] "GET / HTTP/1.0" 200 1714
+[26/May/2018 13:33:45] "GET / HTTP/1.0" 200 1714
+[26/May/2018 14:03:15] "GET / HTTP/1.0" 200 1714
+[26/May/2018 14:53:35] "GET / HTTP/1.0" 200 1714
+[26/May/2018 16:25:39] "GET / HTTP/1.0" 200 1714
+[26/May/2018 16:51:18] "GET / HTTP/1.0" 200 1714
+[26/May/2018 17:12:46] "GET / HTTP/1.0" 200 1714
+[26/May/2018 18:05:07] "GET / HTTP/1.0" 200 1714
+[26/May/2018 18:21:12] "GET / HTTP/1.0" 200 1714
+[26/May/2018 19:15:27] "GET / HTTP/1.0" 200 1714
+[26/May/2018 19:22:45] "GET / HTTP/1.0" 200 1714
+[26/May/2018 20:25:16] "GET / HTTP/1.0" 200 1714
+[26/May/2018 20:58:06] "GET / HTTP/1.0" 200 1714
+[26/May/2018 22:00:16] "GET / HTTP/1.0" 200 1714
+[26/May/2018 22:37:08] "GET / HTTP/1.0" 200 1714
+[27/May/2018 00:41:50] "GET / HTTP/1.0" 200 1714
+[27/May/2018 04:45:11] "GET / HTTP/1.0" 200 1714
+[27/May/2018 05:50:50] "GET / HTTP/1.0" 200 1714
+[27/May/2018 06:24:10] "GET / HTTP/1.0" 200 1714
+[27/May/2018 07:02:46] "GET / HTTP/1.0" 200 1714
+[27/May/2018 09:27:13] "GET / HTTP/1.0" 200 1714
+[27/May/2018 11:09:52] "GET / HTTP/1.0" 200 1714
+[27/May/2018 11:52:57] "GET / HTTP/1.0" 200 1714
+[27/May/2018 12:00:27] "GET / HTTP/1.0" 200 1714
+[27/May/2018 12:04:47] "GET / HTTP/1.0" 200 1714
+[27/May/2018 12:06:02] "GET / HTTP/1.0" 200 1714
+[27/May/2018 15:08:42] "GET / HTTP/1.0" 200 1714
+[27/May/2018 16:28:39] "GET / HTTP/1.0" 200 1714
+[27/May/2018 18:10:14] "GET / HTTP/1.0" 200 1714
+Not Found: /BGCC/Tpl/Public/css/login.css
+[27/May/2018 19:43:44] "GET /BGCC/Tpl/Public/css/login.css HTTP/1.0" 404 2021
+[27/May/2018 20:03:04] "GET / HTTP/1.0" 200 1714
+[27/May/2018 20:10:37] "GET / HTTP/1.0" 200 1714
+[27/May/2018 20:49:01] "GET / HTTP/1.0" 200 1714
+[27/May/2018 23:42:27] "GET / HTTP/1.0" 200 1714
+Not Found: /wapi/jobs/recommends/full_time
+[28/May/2018 00:33:42] "GET /wapi/jobs/recommends/full_time?city=bj HTTP/1.0" 404 2032
+Not Found: /wapi/jobs/recommends/part_time
+[28/May/2018 00:33:42] "GET /wapi/jobs/recommends/part_time?city=bj HTTP/1.0" 404 2032
+Not Found: /wapi/common/dic/category/jz
+Not Found: /wapi/common/dic/category/qz
+[28/May/2018 00:33:42] "GET /wapi/common/dic/category/jz HTTP/1.0" 404 2015
+[28/May/2018 00:33:42] "GET /wapi/common/dic/category/qz HTTP/1.0" 404 2015
+Not Found: /wapi/jobs/recommends/part_time
+Not Found: /wapi/jobs/recommends/full_time
+[28/May/2018 00:38:56] "GET /wapi/jobs/recommends/part_time?city=bj HTTP/1.0" 404 2032
+[28/May/2018 00:38:56] "GET /wapi/jobs/recommends/full_time?city=bj HTTP/1.0" 404 2032
+Not Found: /wapi/common/dic/category/qz
+Not Found: /wapi/common/dic/category/jz
+[28/May/2018 00:38:56] "GET /wapi/common/dic/category/qz HTTP/1.0" 404 2015
+[28/May/2018 00:38:56] "GET /wapi/common/dic/category/jz HTTP/1.0" 404 2015
+[28/May/2018 01:33:10] "GET / HTTP/1.0" 200 1714
+[28/May/2018 01:49:27] "GET / HTTP/1.0" 200 1714
+[28/May/2018 03:28:10] "GET / HTTP/1.0" 200 1714
+[28/May/2018 04:32:43] "GET / HTTP/1.0" 200 1714
+[28/May/2018 06:05:43] "GET / HTTP/1.0" 200 1714
+[28/May/2018 06:15:51] "GET / HTTP/1.0" 200 1714
+[28/May/2018 08:09:51] "GET / HTTP/1.0" 200 1714
+[28/May/2018 09:15:59] "GET / HTTP/1.0" 200 1714
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 25, 2018 - 09:02:16
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Not Found: /user/soapCaller.bs
+[28/May/2018 10:19:34] "GET /user/soapCaller.bs HTTP/1.0" 404 1988
+[28/May/2018 10:38:05] "GET /admin/candy/activity/ HTTP/1.0" 200 4209
+[28/May/2018 10:38:05] "GET /static/admin/css/base.css HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/css/changelists.css HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[28/May/2018 10:38:05] "GET /static/admin/css/fonts.css HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /admin/candy/ HTTP/1.0" 200 3388
+[28/May/2018 10:38:05] "GET /static/admin/css/dashboard.css HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[28/May/2018 10:38:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[28/May/2018 10:38:07] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[28/May/2018 10:38:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[28/May/2018 10:38:09] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[28/May/2018 10:38:09] "GET /static/admin/css/forms.css HTTP/1.0" 304 0
+[28/May/2018 10:38:09] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[28/May/2018 10:38:09] "GET /static/admin/js/calendar.js HTTP/1.0" 200 7790
+[28/May/2018 10:38:09] "GET /static/admin/css/widgets.css HTTP/1.0" 304 0
+[28/May/2018 10:38:09] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 20529
+[28/May/2018 10:38:09] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[28/May/2018 10:38:09] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[28/May/2018 10:38:09] "GET /static/admin/img/icon-clock.svg HTTP/1.0" 200 677
+[28/May/2018 10:38:09] "GET /static/admin/img/icon-calendar.svg HTTP/1.0" 200 1086
+[28/May/2018 12:01:22] "GET / HTTP/1.0" 200 1714
+[28/May/2018 12:02:27] "GET / HTTP/1.0" 200 1714
+[28/May/2018 12:02:27] "GET / HTTP/1.0" 200 1714
+[28/May/2018 13:53:46] "GET / HTTP/1.0" 200 1714
+[28/May/2018 16:57:55] "GET / HTTP/1.0" 200 1714
+[28/May/2018 17:56:19] "GET / HTTP/1.0" 200 1714
+[28/May/2018 18:06:51] "GET / HTTP/1.0" 200 1714
+[28/May/2018 19:05:27] "GET / HTTP/1.0" 200 1714
+[28/May/2018 20:26:42] "GET / HTTP/1.0" 200 1714
+[28/May/2018 20:54:50] "GET / HTTP/1.0" 200 1714
+Not Found: /phpmyadmin/index.php
+[28/May/2018 21:08:51] "GET /phpmyadmin/index.php HTTP/1.0" 404 1994
+[28/May/2018 21:16:57] "GET / HTTP/1.0" 200 1714
+[28/May/2018 22:38:44] "GET / HTTP/1.0" 200 1714
+[28/May/2018 23:32:41] "GET / HTTP/1.0" 200 1714
+[29/May/2018 00:30:47] "GET / HTTP/1.0" 200 1714
+[29/May/2018 00:58:47] "GET / HTTP/1.0" 200 1714
+[29/May/2018 03:21:35] "GET / HTTP/1.0" 200 1714
+[29/May/2018 04:20:00] "GET / HTTP/1.0" 200 1714
+[29/May/2018 05:46:04] "GET / HTTP/1.0" 200 1714
+Not Found: /webfig/roteros.info
+[29/May/2018 05:57:54] "GET /webfig/roteros.info HTTP/1.0" 404 1991
+[29/May/2018 06:19:12] "GET / HTTP/1.0" 200 1714
+[29/May/2018 08:08:45] "GET / HTTP/1.0" 200 1714
+[29/May/2018 08:46:57] "GET / HTTP/1.0" 200 1714
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 28, 2018 - 10:18:23
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 10:50:30
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 10:52:21
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 10:52:26
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 11:14:21] "GET /admin/candy/ HTTP/1.0" 200 3388
+[29/May/2018 11:14:21] "GET /static/admin/css/base.css HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/css/dashboard.css HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/css/fonts.css HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[29/May/2018 11:14:21] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 10:58:48
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 11:41:14] "GET / HTTP/1.0" 200 1714
+[29/May/2018 11:51:32] "GET / HTTP/1.0" 200 1714
+[29/May/2018 11:59:50] "GET / HTTP/1.0" 200 1714
+[29/May/2018 13:25:25] "GET / HTTP/1.0" 200 1714
+[29/May/2018 13:26:00] "GET / HTTP/1.0" 200 1714
+[29/May/2018 13:56:55] "GET / HTTP/1.0" 200 1714
+[29/May/2018 14:12:44] "GET / HTTP/1.0" 200 1714
+[29/May/2018 14:12:44] "GET / HTTP/1.0" 200 1714
+[29/May/2018 14:58:45] "GET / HTTP/1.0" 200 1714
+[29/May/2018 15:11:25] "GET / HTTP/1.0" 200 1714
+[29/May/2018 15:46:27] "GET / HTTP/1.0" 200 1714
+[29/May/2018 15:46:57] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 15:46:57] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 15:46:59] "GET /admin/candy/record/ HTTP/1.0" 200 3044
+[29/May/2018 15:46:59] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/css/changelists.css HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 15:46:59] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[29/May/2018 15:46:59] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[29/May/2018 15:47:00] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[29/May/2018 15:47:00] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 304 0
+[29/May/2018 15:47:01] "GET /admin/candy/record/add/ HTTP/1.0" 200 5615
+[29/May/2018 15:47:01] "GET /static/admin/css/forms.css HTTP/1.0" 304 0
+[29/May/2018 15:47:01] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 15:47:01] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[29/May/2018 15:47:01] "GET /static/admin/css/widgets.css HTTP/1.0" 304 0
+[29/May/2018 15:47:01] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[29/May/2018 15:47:05] "POST /admin/candy/record/add/ HTTP/1.0" 302 0
+[29/May/2018 15:47:05] "GET /admin/candy/record/ HTTP/1.0" 200 4359
+[29/May/2018 15:47:05] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 15:47:05] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 436
+[29/May/2018 15:48:23] "GET / HTTP/1.0" 200 1714
+[29/May/2018 15:53:02] "GET / HTTP/1.0" 200 1714
+[29/May/2018 16:07:05] "GET / HTTP/1.0" 200 1714
+[29/May/2018 16:28:31] "GET / HTTP/1.0" 200 1714
+[29/May/2018 16:30:44] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 16:30:47] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 16:30:47] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:30:48] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 16:30:48] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:32:11] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 16:32:11] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 11:14:51
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 16:36:12] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 16:36:13] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:36:13] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 16:36:15] "GET /admin/candy/activity/ HTTP/1.0" 200 4209
+[29/May/2018 16:36:15] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:36:16] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 6587
+[29/May/2018 16:36:16] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:36:25] "GET /admin/candy/activity/1/delete/ HTTP/1.0" 200 3146
+[29/May/2018 16:36:25] "GET /static/admin/js/cancel.js HTTP/1.0" 200 204
+[29/May/2018 16:36:27] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 6587
+[29/May/2018 16:36:29] "POST /admin/candy/activity/1/change/ HTTP/1.0" 302 0
+[29/May/2018 16:36:29] "GET /admin/candy/activity/ HTTP/1.0" 200 4387
+[29/May/2018 16:36:29] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:36:31] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 6593
+[29/May/2018 16:36:31] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 16:35:54
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 16:40:53] "GET /admin/candy/activity/ HTTP/1.0" 200 4209
+[29/May/2018 16:40:53] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:40:53] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 16:40:55] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 16:40:55] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:40:58] "POST /admin/candy/record/ HTTP/1.0" 200 3133
+[29/May/2018 16:40:59] "POST /admin/candy/record/ HTTP/1.0" 302 0
+[29/May/2018 16:40:59] "GET /admin/candy/record/ HTTP/1.0" 200 3164
+[29/May/2018 16:40:59] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:41:01] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 16:41:02] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 16:41:02] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 16:41:03] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 16:41:03] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 16:37:24
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f05bcec6938>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/candyPocket/candyPocket/urls.py", line 16, in <module>
+    from django.conf.urls import url, include, path
+ImportError: cannot import name path
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:08:08
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Internal Server Error: /candy/getCandy/1/0001
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 35, in getCandy
+    account.balance += activity.num_for_every_person
+AttributeError: 'QuerySet' object has no attribute 'balance'
+[29/May/2018 17:08:29] "GET /candy/getCandy/1/0001 HTTP/1.0" 500 68917
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:08:28
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Internal Server Error: /candy/getCandy/1/0001
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 198, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view candy.views.getCandy didn't return an HttpResponse object. It returned None instead.
+[29/May/2018 17:09:19] "GET /candy/getCandy/1/0001 HTTP/1.0" 500 58319
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:09:19
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Internal Server Error: /candy/getCandy/1/0001
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 24, in getCandy
+    raise Http404("User already get the candy")
+NameError: global name 'Http404' is not defined
+[29/May/2018 17:13:54] "GET /candy/getCandy/1/0001 HTTP/1.0" 500 68376
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:13:51
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Not Found: /candy/getCandy/1/0001
+[29/May/2018 17:14:36] "GET /candy/getCandy/1/0001 HTTP/1.0" 404 1734
+[29/May/2018 17:14:44] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 17:14:45] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:14:46] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:14:46] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:14:47] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:14:48] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:14:48] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:14:49] "GET /admin/candy/record/2/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:14:49] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:14:50] "GET /admin/candy/record/2/delete/ HTTP/1.0" 200 3003
+[29/May/2018 17:14:51] "POST /admin/candy/record/2/delete/ HTTP/1.0" 302 0
+[29/May/2018 17:14:51] "GET /admin/candy/record/ HTTP/1.0" 200 3184
+[29/May/2018 17:14:51] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Internal Server Error: /candy/getCandy/1/0001
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 50, in getCandy
+    return HttpResponse('<h1>Success</h1>')
+NameError: global name 'HttpResponse' is not defined
+[29/May/2018 17:14:54] "GET /candy/getCandy/1/0001 HTTP/1.0" 500 67680
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:14:31
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Not Found: /candy/getCandy/1/0001
+[29/May/2018 17:15:39] "GET /candy/getCandy/1/0001 HTTP/1.0" 404 1734
+[29/May/2018 17:15:50] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:15:50] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:15:51] "GET /admin/candy/record/3/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:15:51] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:15:52] "GET /admin/candy/record/3/delete/ HTTP/1.0" 200 3003
+[29/May/2018 17:15:53] "POST /admin/candy/record/3/delete/ HTTP/1.0" 302 0
+[29/May/2018 17:15:53] "GET /admin/candy/record/ HTTP/1.0" 200 3184
+[29/May/2018 17:15:53] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:15:55] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 16
+[29/May/2018 17:16:00] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:16:00] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:16:01] "GET /admin/candy/record/4/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:16:01] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:16:05] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:16:07] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:16:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:16:08] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[29/May/2018 17:16:08] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:16:08] "GET /static/admin/js/calendar.js HTTP/1.0" 200 7790
+[29/May/2018 17:16:08] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 20529
+[29/May/2018 17:16:08] "GET /static/admin/img/icon-clock.svg HTTP/1.0" 200 677
+[29/May/2018 17:16:08] "GET /static/admin/img/icon-calendar.svg HTTP/1.0" 200 1086
+[29/May/2018 17:16:13] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:16:17] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:16:17] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:16:18] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 17:16:18] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:17:55] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:17:55] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:17:55] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:17:56] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:17:56] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:17:57] "GET /admin/candy/record/4/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:17:57] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:18:01] "GET /admin/candy/record/4/history/ HTTP/1.0" 200 1763
+[29/May/2018 17:18:02] "GET /admin/candy/record/4/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:18:02] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:18:03] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:18:03] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:18:04] "GET /admin/candy/record/4/change/ HTTP/1.0" 200 5831
+[29/May/2018 17:18:04] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:15:36
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 17:19:54] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:19:54] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:19:55] "GET /admin/candy/record/4/change/ HTTP/1.0" 200 6291
+[29/May/2018 17:19:55] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:19:37
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 17:20:22] "GET /admin/candy/record/4/delete/ HTTP/1.0" 200 3003
+[29/May/2018 17:20:23] "POST /admin/candy/record/4/delete/ HTTP/1.0" 302 0
+[29/May/2018 17:20:23] "GET /admin/candy/record/ HTTP/1.0" 200 3184
+[29/May/2018 17:20:23] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:25] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 16
+[29/May/2018 17:20:27] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:20:27] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:28] "GET /admin/candy/record/5/change/ HTTP/1.0" 200 6291
+[29/May/2018 17:20:28] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:31] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:20:31] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:32] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:20:34] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:20:34] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:35] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[29/May/2018 17:20:35] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:38] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:20:39] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[29/May/2018 17:20:39] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:40] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:20:41] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:20:42] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:20:42] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:20:43] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 17:20:43] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:20:19
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:42:36
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 17:43:38] "GET /admin HTTP/1.0" 301 0
+[29/May/2018 17:43:38] "GET /admin/ HTTP/1.0" 200 7771
+[29/May/2018 17:43:38] "GET /static/admin/css/fonts.css HTTP/1.0" 200 423
+[29/May/2018 17:43:38] "GET /static/admin/img/icon-deletelink.svg HTTP/1.0" 200 392
+[29/May/2018 17:43:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 80304
+[29/May/2018 17:43:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 82564
+[29/May/2018 17:43:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 81348
+[29/May/2018 17:43:41] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:43:41] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 363
+[29/May/2018 17:43:41] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:43:43] "GET /admin/candy/record/5/change/ HTTP/1.0" 200 6291
+[29/May/2018 17:43:43] "GET /static/admin/js/change_form.js HTTP/1.0" 200 712
+[29/May/2018 17:43:43] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:43:43] "GET /static/admin/css/widgets.css HTTP/1.0" 200 10340
+[29/May/2018 17:43:43] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 495
+[29/May/2018 17:43:44] "GET /admin/candy/record/5/delete/ HTTP/1.0" 200 3003
+[29/May/2018 17:43:45] "POST /admin/candy/record/5/delete/ HTTP/1.0" 302 0
+[29/May/2018 17:43:45] "GET /admin/candy/record/ HTTP/1.0" 200 3184
+[29/May/2018 17:43:45] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:43:48] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 31
+[29/May/2018 17:43:56] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 50
+[29/May/2018 17:44:02] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:44:02] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:03] "GET /admin/candy/record/6/change/ HTTP/1.0" 200 6291
+[29/May/2018 17:44:03] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:06] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:44:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:07] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:44:09] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:44:09] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:10] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[29/May/2018 17:44:10] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:11] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:44:12] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:44:12] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:13] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6286
+[29/May/2018 17:44:13] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:17] "POST /admin/candy/account/1/change/ HTTP/1.0" 302 0
+[29/May/2018 17:44:17] "GET /admin/candy/account/ HTTP/1.0" 200 4373
+[29/May/2018 17:44:17] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:23] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:44:25] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:44:26] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:27] "GET /admin/candy/record/6/change/ HTTP/1.0" 200 6291
+[29/May/2018 17:44:27] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:28] "GET /admin/candy/record/6/delete/ HTTP/1.0" 200 3003
+[29/May/2018 17:44:29] "POST /admin/candy/record/6/delete/ HTTP/1.0" 302 0
+[29/May/2018 17:44:29] "GET /admin/candy/record/ HTTP/1.0" 200 3184
+[29/May/2018 17:44:29] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:30] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 31
+[29/May/2018 17:44:32] "GET /admin/candy/record/ HTTP/1.0" 200 4187
+[29/May/2018 17:44:32] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:33] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:44:35] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:44:35] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:36] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:36] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:38] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:38] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:38] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 50
+[29/May/2018 17:44:39] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 50
+[29/May/2018 17:44:39] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 50
+[29/May/2018 17:44:40] "GET /candy/getCandy/1/0001 HTTP/1.0" 200 50
+[29/May/2018 17:44:41] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:41] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:42] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:42] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:42] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:42] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:43] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:44:43] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:44] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6284
+[29/May/2018 17:44:44] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:48] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:44:48] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:48] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:44:49] "GET /admin/candy/activity/ HTTP/1.0" 200 4209
+[29/May/2018 17:44:49] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:44:51] "GET /admin/candy/activity/add/ HTTP/1.0" 200 6363
+[29/May/2018 17:44:51] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:04] "POST /admin/candy/activity/add/ HTTP/1.0" 302 0
+[29/May/2018 17:45:04] "GET /admin/candy/activity/ HTTP/1.0" 200 4619
+[29/May/2018 17:45:04] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:10] "GET /candy/getCandy/2/0001 HTTP/1.0" 200 31
+[29/May/2018 17:45:14] "GET /admin/candy/activity/ HTTP/1.0" 200 4441
+[29/May/2018 17:45:14] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:15] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 6592
+[29/May/2018 17:45:15] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:24] "GET /admin/candy/activity/ HTTP/1.0" 200 4441
+[29/May/2018 17:45:24] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:26] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 6592
+[29/May/2018 17:45:26] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:28] "GET /admin/candy/activity/ HTTP/1.0" 200 4441
+[29/May/2018 17:45:28] "GET /admin/candy/activity/2/change/ HTTP/1.0" 200 6593
+[29/May/2018 17:45:28] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:32] "GET /admin/ HTTP/1.0" 200 7692
+[29/May/2018 17:45:35] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:45:35] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:35] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6285
+[29/May/2018 17:45:36] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:58] "GET /admin/candy/account/ HTTP/1.0" 200 4198
+[29/May/2018 17:45:58] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:45:59] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:46:01] "GET /admin/candy/user/ HTTP/1.0" 200 4165
+[29/May/2018 17:46:01] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:46:02] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5424
+[29/May/2018 17:46:02] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:46:05] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:46:06] "GET /admin/candy/record/ HTTP/1.0" 200 4415
+[29/May/2018 17:46:06] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:46:07] "GET /admin/candy/record/8/change/ HTTP/1.0" 200 6338
+[29/May/2018 17:46:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:50:04] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 17:50:07] "GET /admin/candy/asset/ HTTP/1.0" 200 4176
+[29/May/2018 17:50:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:50:08] "GET /admin/candy/asset/1/change/ HTTP/1.0" 200 5243
+[29/May/2018 17:50:08] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 17:50:17] "GET /admin/ HTTP/1.0" 200 7692
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:43:01
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 17:53:09
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f38f40c38c0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/candyPocket/candy/models.py", line 20, in <module>
+    class Asset(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/six.py", line 840, in python_2_unicode_compatible
+    klass.__name__)
+ValueError: @python_2_unicode_compatible cannot be applied to Asset because it doesn't define __str__().
+Unhandled exception in thread started by <function wrapper at 0x7fede01cf8c0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/candyPocket/candy/models.py", line 20, in <module>
+    class Asset(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/six.py", line 840, in python_2_unicode_compatible
+    klass.__name__)
+ValueError: @python_2_unicode_compatible cannot be applied to Asset because it doesn't define __str__().
+[29/May/2018 18:01:03] "GET /admin/ HTTP/1.0" 200 7692
+[29/May/2018 18:01:05] "GET /admin/candy/user/ HTTP/1.0" 200 4158
+[29/May/2018 18:01:05] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:01:07] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:01:08] "GET /admin/candy/activity/ HTTP/1.0" 200 4523
+[29/May/2018 18:01:08] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:01:13] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:01:14] "GET /admin/candy/account/ HTTP/1.0" 200 4188
+[29/May/2018 18:01:14] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:01:15] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6312
+[29/May/2018 18:01:15] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 18:01:02
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 18:03:30
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 18:04:10] "GET /admin/candy/ HTTP/1.0" 200 3786
+Internal Server Error: /admin/candy/activity/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1662, in changelist_view
+    selection_note=_('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 232, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 899, in execute_sql
+    raise original_exception
+OperationalError: (1054, "Unknown column 'candy_activity.name' in 'field list'")
+[29/May/2018 18:04:11] "GET /admin/candy/activity/ HTTP/1.0" 500 121247
+Not Found: /
+[29/May/2018 18:04:12] "GET / HTTP/1.0" 404 2023
+[29/May/2018 18:04:15] "GET /admin/candy/ HTTP/1.0" 200 3786
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 18:04:04
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[29/May/2018 18:04:50] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:04:52] "GET /admin/candy/activity/ HTTP/1.0" 200 4423
+[29/May/2018 18:04:52] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:04:54] "GET /admin/candy/activity/2/change/ HTTP/1.0" 200 7104
+[29/May/2018 18:04:54] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:05] "POST /admin/candy/activity/2/change/ HTTP/1.0" 302 0
+[29/May/2018 18:05:05] "GET /admin/candy/activity/ HTTP/1.0" 200 4594
+[29/May/2018 18:05:05] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:08] "GET /admin/candy/activity/1/change/ HTTP/1.0" 200 7103
+[29/May/2018 18:05:08] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:12] "POST /admin/candy/activity/1/change/ HTTP/1.0" 302 0
+[29/May/2018 18:05:12] "GET /admin/candy/activity/ HTTP/1.0" 200 4595
+[29/May/2018 18:05:12] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:13] "GET /admin/candy/activity/2/change/ HTTP/1.0" 200 7127
+[29/May/2018 18:05:13] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:17] "GET /admin/candy/activity/ HTTP/1.0" 200 4425
+[29/May/2018 18:05:17] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:18] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:05:19] "GET /admin/candy/asset/ HTTP/1.0" 200 4228
+[29/May/2018 18:05:19] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:22] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:05:23] "GET /admin/candy/user/ HTTP/1.0" 200 4158
+[29/May/2018 18:05:23] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:24] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5417
+[29/May/2018 18:05:24] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:05:26] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:05:28] "GET /admin/ HTTP/1.0" 200 7685
+[29/May/2018 18:05:30] "GET /admin/candy/record/ HTTP/1.0" 200 4413
+[29/May/2018 18:05:30] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Not Found: /
+[29/May/2018 18:09:55] "GET / HTTP/1.0" 404 2023
+[29/May/2018 18:09:58] "GET /admin/candy/record/8/change/ HTTP/1.0" 200 6314
+[29/May/2018 18:09:58] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:03] "GET /admin/candy/record/ HTTP/1.0" 200 4413
+[29/May/2018 18:10:03] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:04] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:10:06] "GET /admin/candy/user/ HTTP/1.0" 200 4158
+[29/May/2018 18:10:06] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:07] "GET /admin/candy/user/1/change/ HTTP/1.0" 200 5417
+[29/May/2018 18:10:07] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:08] "GET /admin/candy/user/ HTTP/1.0" 200 4158
+[29/May/2018 18:10:10] "GET /admin/candy/ HTTP/1.0" 200 3786
+[29/May/2018 18:10:11] "GET /admin/candy/account/ HTTP/1.0" 200 4196
+[29/May/2018 18:10:11] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:12] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6328
+[29/May/2018 18:10:12] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[29/May/2018 18:10:14] "GET /admin/candy/account/ HTTP/1.0" 200 4196
+[29/May/2018 18:10:21] "GET /admin/candy/account/1/change/ HTTP/1.0" 200 6328
+[29/May/2018 18:10:21] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+Not Found: /
+[29/May/2018 18:43:26] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[29/May/2018 18:44:57] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[29/May/2018 20:41:40] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[29/May/2018 22:23:18] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[29/May/2018 23:11:14] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 00:33:38] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 02:04:27] "GET / HTTP/1.0" 404 2023
+Not Found: /currentsetting.htm
+[30/May/2018 02:14:05] "GET /currentsetting.htm HTTP/1.0" 404 2095
+Not Found: /
+[30/May/2018 02:21:43] "GET / HTTP/1.0" 404 2023
+Not Found: /cgi/common.cgi
+[30/May/2018 02:47:43] "GET /cgi/common.cgi HTTP/1.0" 404 2083
+Not Found: /stssys.htm
+[30/May/2018 02:47:46] "GET /stssys.htm HTTP/1.0" 404 2071
+Not Found: /
+[30/May/2018 02:47:49] "GET / HTTP/1.0" 404 2023
+Not Found: /command.php
+[30/May/2018 02:47:53] "POST /command.php HTTP/1.0" 404 2075
+Not Found: /
+[30/May/2018 03:30:43] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 03:31:36] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 03:43:52] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 06:24:46] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 06:34:12] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 07:27:46] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 07:30:58] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 07:45:47] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 08:08:56] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 08:08:59] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 08:34:21] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 08:34:21] "GET / HTTP/1.0" 404 2023
+Not Found: /phpadmin/index.php
+[30/May/2018 08:42:41] "GET /phpadmin/index.php HTTP/1.0" 404 2095
+Not Found: /xampp/phpmyadmin/index.php
+[30/May/2018 08:42:44] "GET /xampp/phpmyadmin/index.php HTTP/1.0" 404 2119
+[30/May/2018 08:49:00] "GET /admin/candy/account/ HTTP/1.0" 200 4196
+[30/May/2018 08:49:00] "GET /admin/jsi18n/ HTTP/1.0" 200 7758
+[30/May/2018 08:49:01] "GET /admin/candy/ HTTP/1.0" 200 3786
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2018 - 18:04:34
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 30, 2018 - 08:51:12
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Forbidden (CSRF cookie not set.): /candy/getCandy/2
+[30/May/2018 08:52:45] "POST /candy/getCandy/2 HTTP/1.0" 403 2829
+Forbidden (CSRF cookie not set.): /candy/getCandy/2
+[30/May/2018 08:53:25] "POST /candy/getCandy/2 HTTP/1.0" 403 2829
+[30/May/2018 08:53:44] "GET /candy/getCandy/2 HTTP/1.0" 200 43
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 30, 2018 - 08:52:15
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[30/May/2018 08:56:35] "GET /candy/getCandy/2?user_id=0001 HTTP/1.0" 200 50
+Not Found: /
+[30/May/2018 09:15:50] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 09:35:11] "GET / HTTP/1.0" 404 2023
+[30/May/2018 10:13:19] "GET /candy/getCandy/2?user_id=0001 HTTP/1.0" 200 50
+[30/May/2018 10:13:20] "GET /candy/getCandy/2?user_id=0001 HTTP/1.0" 200 50
+[30/May/2018 10:13:20] "GET /candy/getCandy/2?user_id=0001 HTTP/1.0" 200 50
+[2018-05-30 10:13:20,530] - Broken pipe from ('127.0.0.1', 40302)
+
+[30/May/2018 10:13:20] "GET /candy/getCandy/2?user_id=0001 HTTP/1.0" 200 50
+[30/May/2018 10:13:23] "GET /candy/getCandy/2?user_id=0002 HTTP/1.0" 200 43
+Not Found: /
+[30/May/2018 12:02:30] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 12:02:32] "GET / HTTP/1.0" 404 2023
+Not Found: /GponForm/diag_Form
+[30/May/2018 12:02:57] "POST /GponForm/diag_Form?images/ HTTP/1.0" 404 2104
+Not Found: /
+[30/May/2018 12:26:55] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 12:42:09] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 12:42:15] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 12:52:40] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 13:44:55] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 14:11:33] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 14:35:43] "GET / HTTP/1.0" 404 2023
+Not Found: /user/login/
+[30/May/2018 15:37:56] "GET /user/login/ HTTP/1.0" 404 2074
+Not Found: /
+[30/May/2018 16:02:58] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 17:37:34] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 17:47:06] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 17:49:08] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 18:19:14] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 18:42:24] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 18:56:23] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 19:36:10] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 21:21:38] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 22:06:53] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 22:57:52] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[30/May/2018 23:56:54] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 01:55:59] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 03:42:03] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 03:42:03] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 03:49:21] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 04:06:36] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 05:17:09] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 06:16:45] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 07:07:45] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 07:39:53] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 07:56:38] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 09:32:29] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 10:02:05] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 10:02:05] "GET / HTTP/1.0" 404 2023
+Not Found: /admin/index.php
+[31/May/2018 10:29:01] "GET /admin/index.php HTTP/1.0" 404 4693
+Not Found: /
+[31/May/2018 11:03:28] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 11:56:17] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 12:21:10] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 12:53:00] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 13:42:06] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 13:46:51] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 13:46:57] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 14:20:18] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[31/May/2018 15:20:14] "GET / HTTP/1.0" 404 2023
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 30, 2018 - 08:56:24
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 31, 2018 - 15:55:28
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f5191ea1de8>
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 31, 2018 - 16:01:45
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 146, in inner_run
+    handler = self.get_handler(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/staticfiles/management/commands/runserver.py", line 28, in get_handler
+    handler = super(Command, self).get_handler(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 67, in get_handler
+    return get_internal_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 57, in get_internal_wsgi_application
+    sys.exc_info()[2])
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 47, in get_internal_wsgi_application
+    return import_string(app_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/root/candyPocket/candyPocket/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    return WSGIHandler()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 151, in __init__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 80, in load_middleware
+    middleware = import_string(middleware_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+django.core.exceptions.ImproperlyConfigured: WSGI application 'candyPocket.wsgi.application' could not be loaded; Error importing module: 'No module named login.middleware.auth'
+Error: That port is already in use.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2018 - 10:19:45
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[07/Jun/2018 18:16:16] "GET /candy/getCandy?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867&activity_id=1 HTTP/1.0" 200 50
+[07/Jun/2018 18:16:18] "GET /candy/getCandy?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867&activity_id=3 HTTP/1.0" 200 50
+[07/Jun/2018 18:16:20] "GET /candy/getUserAccount?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 18:16:21] "GET /candy/getUserAccount?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 18:16:23] "GET /candy/getUserAccountBalance?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867&asset_code=candy01 HTTP/1.0" 200 16
+[07/Jun/2018 18:16:24] "GET /candy/getUserAccountBalance?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+[07/Jun/2018 18:16:26] "GET /candy/getUserAccountBalance?session_key=4a4bed48-6a3a-11e8-92a4-00163e08b867&asset_code=candy03 HTTP/1.0" 200 17
+[07/Jun/2018 20:52:48] "GET /candy/getCandyList HTTP/1.0" 200 377
+[07/Jun/2018 20:52:49] "GET /candy/login?code=071bzgYN0cdeeb2uAr0O0Dc4YN0bzgYe HTTP/1.0" 200 55
+[07/Jun/2018 20:52:50] "GET /candy/getUserAccount?session_key=aeb0f442-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 20:52:57] "GET /candy/getUserAccount?session_key=aeb0f442-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 20:53:02] "GET /candy/getUserAccount?session_key=aeb0f442-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 20:53:09] "GET /candy/getCandyList HTTP/1.0" 200 377
+[07/Jun/2018 20:53:09] "GET /candy/login?code=081mYD0b1fQY1v0gU71b1Lle0b1mYD0N HTTP/1.0" 200 55
+[07/Jun/2018 20:53:10] "GET /candy/getCandy?session_key=baf844a8-6a51-11e8-92a4-00163e08b867&activity_id=3 HTTP/1.0" 200 50
+[07/Jun/2018 20:53:13] "GET /candy/getUserAccount?session_key=baf844a8-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 20:53:14] "GET /candy/getUserAccount?session_key=baf844a8-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[07/Jun/2018 20:53:17] "GET /candy/getUserAccountBalance?session_key=baf844a8-6a51-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+[07/Jun/2018 20:53:18] "GET /candy/getUserAccountBalance?session_key=baf844a8-6a51-11e8-92a4-00163e08b867&asset_code=candy03 HTTP/1.0" 200 17
+[07/Jun/2018 20:53:20] "GET /candy/getUserAccountBalance?session_key=baf844a8-6a51-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+Not Found: /
+[07/Jun/2018 22:08:02] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[07/Jun/2018 22:08:04] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[07/Jun/2018 22:17:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[07/Jun/2018 22:24:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[07/Jun/2018 22:27:32] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[07/Jun/2018 22:28:14] "GET / HTTP/1.0" 404 2023
+[07/Jun/2018 22:40:03] "GET /candy/getCandyList HTTP/1.0" 200 377
+[07/Jun/2018 22:40:03] "GET /candy/login?code=011nP3wd0mcKXt1DM7vd03OTvd0nP3wR HTTP/1.0" 200 55
+Not Found: /
+[08/Jun/2018 00:43:21] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 01:21:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 01:28:47] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 02:11:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 02:13:56] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 02:24:09] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 02:45:28] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 03:05:35] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 03:24:07] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 04:56:41] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 05:02:53] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 05:23:41] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 06:04:35] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 07:03:39] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 07:43:40] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 08:32:32] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 09:02:11] "GET / HTTP/1.0" 404 2023
+[08/Jun/2018 09:55:32] "GET /candy/getCandyList HTTP/1.0" 200 377
+[08/Jun/2018 09:55:32] "GET /candy/getUserAccount?session_key=baf844a8-6a51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[08/Jun/2018 09:55:32] "GET /candy/login?code=061TRSIU0h5ZoX16ZIJU0PGZIU0TRSI3 HTTP/1.0" 200 55
+[08/Jun/2018 09:55:33] "GET /candy/getUserAccount?session_key=0721e29a-6abf-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 07, 2018 - 18:16:06
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "RaLMVyBRJVdVFIfUy1h+6g==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "7wq8im2k2smxxIkkjDB+0A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50Z[08/Jun/2018 09:55:35] "GET /candy/getUserAccount?session_key=0721e29a-6abf-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[08/Jun/2018 09:55:36] "GET /candy/getUserAccountBalance?session_key=0721e29a-6abf-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+[08/Jun/2018 09:55:37] "GET /candy/getUserAccountBalance?session_key=0721e29a-6abf-11e8-92a4-00163e08b867&asset_code=candy03 HTTP/1.0" 200 17
+Not Found: /
+[08/Jun/2018 10:05:49] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 10:05:49] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 10:09:19] "GET / HTTP/1.0" 404 2023
+Not Found: /admin/index.php
+[08/Jun/2018 10:36:07] "GET /admin/index.php HTTP/1.0" 404 4861
+Not Found: /muieblackcat
+[08/Jun/2018 11:27:37] "GET /muieblackcat HTTP/1.0" 404 2077
+Not Found: //phpMyAdmin/scripts/setup.php
+[08/Jun/2018 11:27:38] "GET //phpMyAdmin/scripts/setup.php HTTP/1.0" 404 2128
+Not Found: //phpmyadmin/scripts/setup.php
+[08/Jun/2018 11:27:38] "GET //phpmyadmin/scripts/setup.php HTTP/1.0" 404 2128
+Not Found: //pma/scripts/setup.php
+[08/Jun/2018 11:27:39] "GET //pma/scripts/setup.php HTTP/1.0" 404 2107
+Not Found: //myadmin/scripts/setup.php
+[08/Jun/2018 11:27:39] "GET //myadmin/scripts/setup.php HTTP/1.0" 404 2119
+Not Found: //MyAdmin/scripts/setup.php
+[08/Jun/2018 11:27:40] "GET //MyAdmin/scripts/setup.php HTTP/1.0" 404 2119
+Not Found: /
+[08/Jun/2018 11:35:26] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 11:42:05] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 11:48:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 12:46:54] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 13:07:42] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 13:22:19] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 13:55:10] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 14:35:44] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 15:01:01] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 15:21:15] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 15:29:04] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 16:43:04] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 19:21:11] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 19:28:28] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 20:26:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 22:01:58] "GET / HTTP/1.0" 404 2023
+Not Found: /ccvv
+[08/Jun/2018 23:17:53] "GET /ccvv HTTP/1.0" 404 2053
+Not Found: /
+[08/Jun/2018 23:19:38] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 23:24:52] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 23:37:05] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[08/Jun/2018 23:50:07] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 01:30:26] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 03:01:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 04:20:22] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 04:22:23] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 04:54:39] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 06:28:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 07:54:59] "GET / HTTP/1.0" 404 2023
+[09/Jun/2018 08:16:08] "GET /candy/getCandyList HTTP/1.0" 200 377
+[09/Jun/2018 08:16:08] "GET /candy/login?code=071v5ZIT18blV61Qv8GT1roIIT1v5ZIh HTTP/1.0" 200 55
+Not Found: /admin/phpmyadmin/index.php
+[09/Jun/2018 08:27:07] "GET /admin/phpmyadmin/index.php HTTP/1.0" 404 4894
+Not Found: /phpmyadmin-old/index.php
+[09/Jun/2018 09:09:47] "GET /phpmyadmin-old/index.php HTTP/1.0" 404 2113
+Not Found: /
+[09/Jun/2018 09:59:31] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 10:07:19] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 10:46:18] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 12:13:35] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 13:49:06] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 14:47:07] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 15:12:30] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 15:14:33] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 15:34:24] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 16:10:25] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 17:10:53] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 17:17:11] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 17:34:44] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 18:45:32] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 18:46:53] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 19:35:14] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 19:35:27] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 22:24:38] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 23:04:28] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[09/Jun/2018 23:42:52] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 00:11:46] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 00:24:40] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 01:07:29] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 01:18:08] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 01:18:08] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 04:28:54] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 05:04:35] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 05:09:49] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 05:35:14] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 05:40:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 06:26:59] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 06:28:04] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 06:32:12] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 06:47:28] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:01:32] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:07:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:07:19] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:16:39] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:16:44] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 09:33:58] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 12:57:32] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 14:21:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 18:42:29] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 19:19:01] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 19:20:25] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 20:12:47] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 20:15:05] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 20:43:29] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 20:44:46] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 20:44:48] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 22:13:07] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[10/Jun/2018 22:13:10] "GET / HTTP/1.0" 404 2023
+Not Found: /cgi/common.cgi
+[11/Jun/2018 00:16:04] "GET /cgi/common.cgi HTTP/1.0" 404 2083
+Not Found: /
+[11/Jun/2018 00:54:21] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 03:14:12] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 04:04:56] "GET / HTTP/1.0" 404 2023
+Not Found: /
+Not Found: /
+[11/Jun/2018 04:20:11] "GET / HTTP/1.0" 404 2023
+[11/Jun/2018 04:20:11] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 04:26:01] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 04:42:13] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 04:46:10] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 06:19:18] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 06:31:57] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 07:50:16] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 08:24:19] "GET / HTTP/1.0" 404 2023
+[11/Jun/2018 08:46:49] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 08:46:49] "GET /candy/login?code=06198dQj2lyDNG0kIrOj2QTdQj298dQ8 HTTP/1.0" 200 55
+[11/Jun/2018 08:46:51] "GET /candy/getUserAccount?session_key=eca8ba8e-6d10-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 08:46:52] "GET /candy/getUserAccount?session_key=eca8ba8e-6d10-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 08:46:54] "GET /candy/getUserAccountBalance?session_key=eca8ba8e-6d10-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+Not Found: /
+[11/Jun/2018 09:13:39] "GET / HTTP/1.0" 404 2023
+[11/Jun/2018 10:07:17] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:07:17] "GET /candy/login?code=011Lu9ua20NpAP0aFDwa2gh3ua2Lu9us HTTP/1.0" 200 55
+[11/Jun/2018 10:07:31] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:07:31] "GET /candy/login?code=011jIZAK0MyCx52J0zBK0rBgBK0jIZAZ HTTP/1.0" 200 55
+[11/Jun/2018 10:07:47] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:07:47] "GET /candy/login?code=071Uhkeh1LXH0z0hHoch12Tweh1Uhke7 HTTP/1.0" 200 55
+[11/Jun/2018 10:29:23] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:29:24] "GET /candy/login?code=071K6Vg92rLCMQ0LK9j92NL6h92K6VgG HTTP/1.0" 200 55
+[11/Jun/2018 10:30:00] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:30:00] "GET /candy/login?code=0213Fw662ZeyaL0Hc3962cRF6623Fw6O HTTP/1.0" 200 55
+Not Found: /
+[11/Jun/2018 10:46:59] "GET / HTTP/1.0" 404 2023
+[11/Jun/2018 10:48:40] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:48:40] "GET /candy/login?code=011xQikp0snoNp1Wywhp0Zpdkp0xQikE HTTP/1.0" 200 55
+[11/Jun/2018 10:48:41] "GET /candy/getUserAccount?session_key=f268fa90-6d21-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 10:48:43] "GET /candy/getUserAccount?session_key=f268fa90-6d21-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 80, in packet
+    total = float(request.GET.get("total"))
+ValueError: could not convert string to float: undefined
+[11/Jun/2018 10:48:59] "GET /candy/packet?session_key=f268fa90-6d21-11e8-92a4-00163e08b867&asset_code=undefined&total=undefined&num=undefined&packetNo=1528685330000 HTTP/1.0" 500 68363
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[11/Jun/2018 10:48:59] "GET /candy/packet?session_key=f268fa90-6d21-11e8-92a4-00163e08b867&asset_code=undefined&total=undefined&num=undefined&packetNo=1528685330000 HTTP/1.0" 500 59
+[2018-06-11 10:48:59,380] - Broken pipe from ('127.0.0.1', 51308)
+
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 80, in packet
+    total = float(request.GET.get("total"))
+ValueError: could not convert string to float: undefined
+[11/Jun/2018 10:48:59] "GET /candy/packet?session_key=f268fa90-6d21-11e8-92a4-00163e08b867&asset_code=undefined&total=undefined&num=undefined&packetNo=1528685330000 HTTP/1.0" 500 68363
+[11/Jun/2018 10:49:55] "GET /candy/getUserAccountBalance?session_key=f268fa90-6d21-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+[11/Jun/2018 10:50:12] "GET /candy/packet?session_key=f268fa90-6d21-11e8-92a4-00163e08b867&asset_code=candy02&total=20&num=10&packetNo=1528685407000 HTTP/1.0" 200 31
+[11/Jun/2018 10:52:22] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:52:22] "GET /candy/login?code=021kUFLF0ftE8l2brWJF0XssLF0kUFL0 HTTP/1.0" 200 55
+[11/Jun/2018 10:52:42] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:52:42] "GET /candy/login?code=0011Hieq05Kcko1kf1eq0HpCeq01HieA HTTP/1.0" 200 55
+[11/Jun/2018 10:52:43] "GET /candy/getUserAccount?session_key=82e21f7a-6d22-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 10:52:45] "GET /candy/getUserAccount?session_key=82e21f7a-6d22-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 10:52:47] "GET /candy/getUserAccountBalance?session_key=82e21f7a-6d22-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+[11/Jun/2018 10:52:53] "GET /candy/packet?session_key=82e21f7a-6d22-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=2&packetNo=1528685568000 HTTP/1.0" 200 31
+[11/Jun/2018 10:53:29] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:53:30] "GET /candy/login?code=011OSPNM1DEdt41MA0QM10l9OM1OSPNE HTTP/1.0" 200 55
+Ap-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "uGT5mZgzEeNU9/M3VrAKBQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "DXKz+DuOxAA+D3uBA5Dr+w==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "GfkArJzMNpVpNMn7hZcmHQ==", "expires_in": 7200}
+80.0 20.0
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "Nn3t5+OTlqwJyvA4yIZc1A==", "expires_in": 7200}
+60.0 10.0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 11, 2018 - 10:54:12
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+[11/Jun/2018 10:55:24] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 10:55:25] "GET /candy/login?code=061Ls61A0FDgWf1QhFYz03o01A0Ls61z HTTP/1.0" 200 55
+[11/Jun/2018 10:55:26] "GET /candy/getUserAccount?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 10:55:27] "GET /candy/getUserAccount?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 10:55:28] "GET /candy/getUserAccountBalance?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 100, in packet
+    packet.save()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1366, "Incorrect string value: '\\xE7\\xBD\\x97\\xE5\\xAE\\x8F...' for column 'userName' at row 1")
+[11/Jun/2018 10:55:36] "GET /candy/packet?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=3&packetNo=1528685731000&userName=%E7%BD%97%E5%AE%8F%E4%BC%9F HTTP/1.0" 500 141834
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[11/Jun/2018 10:55:36] "GET /candy/packet?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=3&packetNo=1528685731000&userName=%E7%BD%97%E5%AE%8F%E4%BC%9F HTTP/1.0" 500 59
+[2018-06-11 10:55:36,665] - Broken pipe from ('127.0.0.1', 55280)
+
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 100, in packet
+    packet.save()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (1366, "Incorrect string value: '\\xE7\\xBD\\x97\\xE5\\xAE\\x8F...' for column 'userName' at row 1")
+[11/Jun/2018 10:55:36] "GET /candy/packet?session_key=e3a8b1f2-6d22-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=3&packetNo=1528685731000&userName=%E7%BD%97%E5%AE%8F%E4%BC%9F HTTP/1.0" 500 141834
+Not Found: /
+[11/Jun/2018 11:03:08] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 11:34:22] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 11:35:06] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 11:41:33] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 11:44:18] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 12:02:02] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 14:37:02] "GET / HTTP/1.0" 404 2023
+Not Found: /
+[11/Jun/2018 16:05:24] "GET / HTTP/1.0" 404 2023
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 11, 2018 - 10:55:11
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+50.0 10.0
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "U4eUDL7+lhzPxsd7OW2vZg==", "expires_in": 7200}
+40.0 10.0
+[11/Jun/2018 16:28:40] "GET /candy/getCandyList HTTP/1.0" 200 377
+[11/Jun/2018 16:28:40] "GET /candy/login?code=021FfV4Y1DAEbT0FZa5Y1WtD4Y1FfV4c HTTP/1.0" 200 55
+[11/Jun/2018 16:28:42] "GET /candy/getUserAccount?session_key=7216899a-6d51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 16:28:43] "GET /candy/getUserAccount?session_key=7216899a-6d51-11e8-92a4-00163e08b867 HTTP/1.0" 200 251
+[11/Jun/2018 16:28:45] "GET /candy/getUserAccountBalance?session_key=7216899a-6d51-11e8-92a4-00163e08b867&asset_code=candy01 HTTP/1.0" 200 16
+[11/Jun/2018 16:28:46] "GET /candy/getUserAccountBalance?session_key=7216899a-6d51-11e8-92a4-00163e08b867&asset_code=candy02 HTTP/1.0" 200 17
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 83, in packet
+    userName = urllib.unquote(request.GET.get('userName')).decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-2: ordinal not in range(128)
+[11/Jun/2018 16:28:52] "GET /candy/packet?session_key=7216899a-6d51-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=5&packetNo=1528705727000&userName=%E7%BD%97%E5%AE%8F%E4%BC%9F HTTP/1.0" 500 73406
+[2018-06-11 16:28:52,376] - Broken pipe from ('127.0.0.1', 51026)
+
+Internal Server Error: /candy/packet
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/candyPocket/candy/views.py", line 83, in packet
+    userName = urllib.unquote(request.GET.get('userName')).decode('utf8')
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-2: ordinal not in range(128)
+[11/Jun/2018 16:28:52] "GET /candy/packet?session_key=7216899a-6d51-11e8-92a4-00163e08b867&asset_code=candy02&total=10&num=5&packetNo=1528705727000&userName=%E7%BD%97%E5%AE%8F%E4%BC%9F HTTP/1.0" 500 73406
+Not Found: /
+[11/Jun/2018 16:29:25] "GET / HTTP/1.0" 404 2023
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 11, 2018 - 16:28:25
+Django version 1.11.13, using settings 'candyPocket.settings'
+Starting development server at http://127.0.0.1:9000/
+Quit the server with CONTROL-C.
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
+{"openid": "od5AB0cZmhaOL0S50ZAp-QdTbiyE", "session_key": "umMoxocI/LJPvC60CN42kw==", "expires_in": 7200}
