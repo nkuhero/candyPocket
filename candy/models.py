@@ -51,7 +51,20 @@ class Packet(models.Model):
 
 
     def __str__(self):
-        return self.user.user_id + "-" + self.account.asset.asset_code
+        return self.user.user_id + "-" + self.packetNo
+
+
+@python_2_unicode_compatible
+class PacketRecord(models.Model): 
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    packet = models.ForeignKey(Packet, on_delete=models.CASCADE)
+    total = models.FloatField()    
+    get_date = models.DateTimeField('get packet', auto_now_add=True)
+    userName = models.CharField(max_length=200, default="")    
+
+
+    def __str__(self):
+        return self.user.user_id + "-" + self.packet.packetNo
 
 @python_2_unicode_compatible
 class Activity(models.Model):
@@ -62,9 +75,20 @@ class Activity(models.Model):
     num_for_every_person = models.FloatField(default=0) 
     total = models.FloatField(default=0)  
     balance = models.FloatField(default=0)
+    rebate = models.FloatField(default=0)
     def __str__(self):       
         return self.name
 
+@python_2_unicode_compatible
+class RebateRecord(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    share_user_id = models.CharField(max_length=200, default="")     
+    activity = models.ForeignKey(Activity, on_delete=models.CASCADE)
+    get_date = models.DateTimeField('get candy', auto_now_add=True) 
+    rebate = rebate = models.FloatField(default=0)  
+
+    def __str__(self):
+        return self.share_user_id + "-" + self.activity.activity_id
 
 @python_2_unicode_compatible
 class Record(models.Model):

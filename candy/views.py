@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 from django.http import Http404, HttpResponse
 
-from candy.models import Activity, User, Account, Record, Asset, Packet
+from candy.models import Activity, User, Account, Record, Asset, Packet, PacketRecord, RebateRecord
 
 import json
 import urllib2
@@ -27,15 +27,15 @@ def login(request):
     code = request.GET.get("code") 
     response = urllib2.urlopen(url%(appId, secret, code))
     content = json.loads(response.read())
-    key = str(uuid.uuid1())
+    #key = str(uuid.uuid1())
     user_id = content["openid"] 
     try:
         user = User.objects.get(user_id=user_id)
     except User.DoesNotExist: 
         user = User(user_id=user_id)
         user.save()
-    conn.set(key, json.dumps(content))
-    result = {"session_key" : key}
+    #conn.set(key, json.dumps(content))
+    result = {"user_id" : user_id}
 
    
     
@@ -67,20 +67,66 @@ def checkUserLogin(request):
         return None    
 
 
+
+def getPacket(request):
+
+    user_id = request.GET.get("user_id")
+
+    try:
+        user = User.objects.get(user_id=user_id)
+    except User.DoesNotExist: 
+        user = User(user_id=user_id)
+        user.save()
+
+    packetNo = request.GET.get("packetNo")
+    packet = Packet.objects.get(packetNo=packetNo)
+    
+    plan = packet.plan
+    if not plan:
+        resp = {"code" : 105, "msg" : "packet runs out"}
+        return HttpResponse(json.dumps(resp), content_type="application/json")
+
+    packetRecord = PacketRecord.objects.filter(user=user, packet=packet)
+    if packetRecord:
+        resp = {"code" : 106, "msg" : "already get this packet"} 
+        return HttpResponse(json.dumps(resp), content_type="application/json")
+
+    asset_code = request.GET.get("asset_code")  
+    asset = Asset.objects.get(asset_code=asset_code)
+    account = Account.objects.filter(user=user, asset=asset)[0]
+    try:
+        account = Account.objects.filter(user=user, asset=asset)[0]
+    except: 
+        account = Account(user=user, asset=asset)
+        account.save()
+
+    planList = plan.split(',')
+    prize  = planList.pop()
+    plan = ",".join(planList)
+
+    account.balance += float(prize)
+    account.save()
+    packet.plan = plan
+    packet.save()
+    userName = urllib.unquote(request.GET.get('userName'))
+
+    packetRecord = PacketRecord(user=user, packet=packet, total=prize, userName=userName) 
+    packetRecord.save()
+
+    resp = {"code" : 200, "msg" : "success"} 
+    return HttpResponse(json.dumps(resp), content_type="application/json")         
+
+
+
 def packet(request):
 
-    session_key = request.GET.get("session_key")
+    user_id = request.GET.get("user_id")
  
-    userNotLogin = checkUserLogin(request)
-    if userNotLogin:
-        return userNotLogin
-
-    user_id = getUserInfo(session_key)
     asset_code = request.GET.get("asset_code")
     total = float(request.GET.get("total"))
     num = int(request.GET.get("num"))
     packetNo = request.GET.get("packetNo")
-    userName = urllib.unquote(request.GET.get('userName')).decode('utf8')
+    userName = urllib.unquote(request.GET.get('userName'))
 
     user = User.objects.get(user_id=user_id)
     asset = Asset.objects.get(asset_code=asset_code)  
@@ -102,6 +148,24 @@ def packet(request):
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
 
+def getUserPacket(request):
+    user_id = request.GET.get("user_id")
+
+    packetNo = request.GET.get("packetNo")     
+    packet = Packet.objects.get(packetNo=packetNo)
+
+    packetRecord = PacketRecord.objects.filter(packet=packet)
+    userList = []
+    for pr in packetRecord:
+        userList.append({"userName" : pr.userName, "getDate" : pr.get_date.strftime('%Y-%m-%d %H:%M:%S'), "total" : pr.total})
+
+    get_num = len(userList)
+
+    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num}
+
+    return HttpResponse(json.dumps(resp), content_type="application/json")
+
+
 def getCandyList(request):
 
     activityList = Activity.objects.all() 
@@ -114,17 +178,18 @@ def getCandyList(request):
 
     return HttpResponse(json.dumps(result), content_type="application/json") 
 
+def getOneCandy(request):
+
+    activity_id = request.GET.get("activity_id")
+    activity = Activity.objects.get(id=activity_id)
+
+    result = {"name" : activity.name, "id" : activity.id, "pic" : activity.asset.asset_pic, "each" : activity.num_for_every_person, "total" : activity.total / activity.num_for_every_person}
+
+    return HttpResponse(json.dumps(result), content_type="application/json") 
 
 
 def getUserAccountBalance(request):
-
-    session_key = request.GET.get("session_key")
-
-    userNotLogin = checkUserLogin(request)
-    if userNotLogin:
-        return userNotLogin
-
-    user_id = getUserInfo(session_key)
+    user_id = request.GET.get("user_id")
 
     if not user_id:
         resp = {"code" : 103, "msg" : "User does not login"}
@@ -147,14 +212,7 @@ def getUserAccountBalance(request):
 
 
 def getUserAccount(request):
-
-    session_key = request.GET.get("session_key")
-
-    userNotLogin = checkUserLogin(request)
-    if userNotLogin:       
-        return userNotLogin 
-
-    user_id = getUserInfo(session_key)
+    user_id = request.GET.get("user_id")
 
     user = User.objects.get(user_id=user_id)
 
@@ -172,15 +230,9 @@ def getCandy(request):
 
     resp = {"code": 200, "msg" : "success"}
   
-    session_key = request.GET.get("session_key")
+    user_id = request.GET.get("user_id")
     activity_id = request.GET.get("activity_id")
-
     
-    userNotLogin = checkUserLogin(request)
-    if userNotLogin:       
-        return userNotLogin 
-
-    user_id = getUserInfo(session_key)
     try:
         user = User.objects.get(user_id=user_id)
     except User.DoesNotExist:
@@ -220,5 +272,11 @@ def getCandy(request):
     account.save()
     activity.save()
     record.save()
+    share_user_id = request.GET.get("activity_id")
+    if share_user_id and share_user_id != user_id:
+        share_user = User.objects.get(user_id=share_user_id)
+        rebate = activity.rebate
+        share_user.balance += rebate
+        share_user.save()
 
     return HttpResponse(json.dumps(resp), content_type="application/json") 
