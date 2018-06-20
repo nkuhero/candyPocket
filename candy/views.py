@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 from django.http import Http404, HttpResponse
 
-from candy.models import Activity, User, Account, Record, Asset, Packet, PacketRecord, RebateRecord
+from candy.models import Activity, User, Account, Record, Asset, Packet, PacketRecord, RebateRecord, Deposit
 
 import json
 import urllib2
@@ -67,6 +67,21 @@ def checkUserLogin(request):
         return None    
 
 
+def addUserInfo(request):
+
+    user_id = request.GET.get("user_id")
+    nickName = request.GET.get("nickName")
+    userPic = request.GET.get("userPic")
+
+    user = User.objects.get(user_id=user_id)
+    user.userName = nickName
+    user.userPic = userPic
+    user.save()
+
+    resp = {"code" : 200, "msg" : "success"}
+    return HttpResponse(json.dumps(resp), content_type="application/json")
+
+
 
 def getPacket(request):
 
@@ -108,9 +123,9 @@ def getPacket(request):
     account.save()
     packet.plan = plan
     packet.save()
-    userName = urllib.unquote(request.GET.get('userName'))
-
-    packetRecord = PacketRecord(user=user, packet=packet, total=prize, userName=userName) 
+    
+    userId = packet.user.user_id
+    packetRecord = PacketRecord(user=user, packet=packet, total=prize, userId=userId) 
     packetRecord.save()
 
     resp = {"code" : 200, "msg" : "success"} 
@@ -126,7 +141,6 @@ def packet(request):
     total = float(request.GET.get("total"))
     num = int(request.GET.get("num"))
     packetNo = request.GET.get("packetNo")
-    userName = urllib.unquote(request.GET.get('userName'))
 
     user = User.objects.get(user_id=user_id)
     asset = Asset.objects.get(asset_code=asset_code)  
@@ -141,12 +155,36 @@ def packet(request):
     li = redpackets.split(total, num, min=0.01)       
     plan = ",".join([str(x) for x in li])
     
-    packet = Packet(user=user, account=account, plan=plan, total=total, num=num, packetNo=packetNo, userName=userName)
+    packet = Packet(user=user, account=account, plan=plan, total=total, num=num, packetNo=packetNo)
     packet.save()
 
     resp = {"code" : 200, "msg" : "success"}   
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
+
+
+def deposit(request):
+    
+    user_id = request.GET.get("user_id")     
+    user = User.objects.get(user_id=user_id) 
+    asset_code = request.GET.get("asset_code")
+    address = request.GET.get("address")
+    
+    asset = Asset.objects.get(asset_code=asset_code)  
+    total = float(request.GET.get("total")) 
+    account = Account.objects.filter(user=user, asset=asset)[0]
+    if total > float(account.balance):
+        resp = {"code" : 109, "msg" : "not enough balance"} 
+        return HttpResponse(json.dumps(resp), content_type="application/json")     
+
+    account.frozen += total
+    account.balance -= total
+    account.save()
+    depo = Deposit(user=user, account=account, total=total, address=address)
+    depo.save()
+    resp = {"code" : 200, "msg" : "success"}  
+    return HttpResponse(json.dumps(resp), content_type="application/json") 
+
 
 def getUserPacket(request):
     user_id = request.GET.get("user_id")
@@ -157,13 +195,32 @@ def getUserPacket(request):
     packetRecord = PacketRecord.objects.filter(packet=packet)
     userList = []
     for pr in packetRecord:
-        userList.append({"userName" : pr.userName, "getDate" : pr.get_date.strftime('%Y-%m-%d %H:%M:%S'), "total" : pr.total})
+        
+        userList.append({"userName" : pr.user.userName, "getDate" : pr.get_date.strftime('%Y-%m-%d %H:%M:%S'), "total" : pr.total, "pic": pr.user.userPic})
 
     get_num = len(userList)
 
-    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num}
+    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.user.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num}
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
+
+def getAdminInfo(request):
+
+    user_id = request.GET.get("user_id")           
+
+    activityList = Activity.objects.all() 
+
+    activityInfo = []
+
+    for activity in activityList:
+        if activity.admin_user == user_id:
+            activityInfo.append({"name": activity.name, "pic" : activity.asset.asset_pic, "each" : activity.num_for_every_person, 
+                "total" : activity.total , "rebate" : activity.rebate, "balance" : activity.balance, "num" : activity.total / activity.num_for_every_person
+                })
+ 
+    resp = {"activityList" : activityInfo}
+
+    return HttpResponse(json.dumps(resp), content_type="application/json")      
 
 
 def getCandyList(request):
@@ -209,6 +266,19 @@ def getUserAccountBalance(request):
     return HttpResponse(json.dumps(result), content_type="application/json") 
 
     
+def checkAdmin(request):
+
+    user_id = request.GET.get("user_id")   
+    activityList = Activity.objects.all()  
+    hide = "hide"
+    for activity in activityList: 
+        if  activity.admin_user == user_id:
+            hide = "" 
+
+    result =  {"hide" : hide}
+    return HttpResponse(json.dumps(result), content_type="application/json") 
+
+
 
 
 def getUserAccount(request):
@@ -272,11 +342,14 @@ def getCandy(request):
     account.save()
     activity.save()
     record.save()
-    share_user_id = request.GET.get("activity_id")
+    share_user_id = request.GET.get("share_user_id")
     if share_user_id and share_user_id != user_id:
         share_user = User.objects.get(user_id=share_user_id)
+        share_account = Account.objects.filter(user=share_user, asset=asset)[0]
         rebate = activity.rebate
-        share_user.balance += rebate
-        share_user.save()
+        share_account.balance += rebate
+        share_account.save()
+        rebateRecord = RebateRecord(user=user, share_user_id=share_user_id, rebate=rebate, activity=activity)
+        rebateRecord.save()
 
     return HttpResponse(json.dumps(resp), content_type="application/json") 

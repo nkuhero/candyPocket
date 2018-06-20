@@ -9,9 +9,9 @@ from django.utils.encoding import python_2_unicode_compatible
 class User(models.Model):
 
     user_id = models.CharField(max_length=50)
+    userName = models.CharField(max_length=200, default="")
+    userPic = models.CharField(max_length=200, default="")
     join_date = models.DateTimeField('User join', auto_now_add=True)
-    
-
     def __str__(self):
         return self.user_id
 
@@ -34,6 +34,7 @@ class Account(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     asset = models.ForeignKey(Asset, on_delete=models.CASCADE)
     balance = models.FloatField(default=0)
+    frozen = models.FloatField(default=0)
 
     def __str__(self):         
         return self.user.user_id + "-" + self.asset.asset_code
@@ -47,11 +48,21 @@ class Packet(models.Model):
     plan = models.CharField(max_length=200, default="")
     create_date = models.DateTimeField('create packet', auto_now_add=True)
     packetNo = models.CharField(max_length=200, default="")
-    userName = models.CharField(max_length=200, default="")    
 
 
     def __str__(self):
         return self.user.user_id + "-" + self.packetNo
+
+
+class Deposit(models.Model): 
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    account = models.ForeignKey(Account, on_delete=models.CASCADE)
+    total = models.FloatField()        
+    create_date = models.DateTimeField('deposit', auto_now_add=True) 
+    address  =  models.CharField(max_length=200, default="")
+
+    def __str__(self):
+        return self.user.user_id
 
 
 @python_2_unicode_compatible
@@ -60,7 +71,8 @@ class PacketRecord(models.Model):
     packet = models.ForeignKey(Packet, on_delete=models.CASCADE)
     total = models.FloatField()    
     get_date = models.DateTimeField('get packet', auto_now_add=True)
-    userName = models.CharField(max_length=200, default="")    
+    #发放红包的userid
+    userId = models.CharField(max_length=200, default="")    
 
 
     def __str__(self):
@@ -76,6 +88,8 @@ class Activity(models.Model):
     total = models.FloatField(default=0)  
     balance = models.FloatField(default=0)
     rebate = models.FloatField(default=0)
+    admin_user = models.CharField(max_length=200, default="")     
+
     def __str__(self):       
         return self.name
 
@@ -84,11 +98,11 @@ class RebateRecord(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     share_user_id = models.CharField(max_length=200, default="")     
     activity = models.ForeignKey(Activity, on_delete=models.CASCADE)
-    get_date = models.DateTimeField('get candy', auto_now_add=True) 
-    rebate = rebate = models.FloatField(default=0)  
+    get_date = models.DateTimeField('get rebate', auto_now_add=True)
+    rebate = models.FloatField(default=0)  
 
     def __str__(self):
-        return self.share_user_id + "-" + self.activity.activity_id
+        return self.share_user_id + "-" + self.activity.name
 
 @python_2_unicode_compatible
 class Record(models.Model):
