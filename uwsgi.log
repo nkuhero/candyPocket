@@ -1,0 +1,252 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Thu Jun 21 16:11:21 2018] ***
+compiled with version: 5.4.1 20160904 on 21 June 2018 08:07:23
+os: Linux-4.4.0-112-generic #135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018
+nodename: xme01
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/candyPocket
+writing pidfile to /root/candyPocket/uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/candyPocket
+your processes number limit is 128555
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:9001 fd 3
+uwsgi socket 0 bound to UNIX address /root/candyPocket/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x267f640
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x267f640 pid: 5849 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5849)
+spawned uWSGI worker 1 (pid: 5851, cores: 1)
+spawned uWSGI worker 2 (pid: 5852, cores: 1)
+spawned uWSGI worker 3 (pid: 5853, cores: 1)
+spawned uWSGI worker 4 (pid: 5854, cores: 1)
+spawned uWSGI worker 5 (pid: 5855, cores: 1)
+spawned uWSGI http 1 (pid: 5857)
+gateway "uWSGI http 1" has been buried (pid: 5857)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5851)...
+Gracefully killing worker 2 (pid: 5852)...
+Gracefully killing worker 3 (pid: 5853)...
+Gracefully killing worker 4 (pid: 5854)...
+Gracefully killing worker 5 (pid: 5855)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /root/candyPocket
+closing all non-uwsgi socket fds > 2 (max_fd = 65535)...
+found fd 6 mapped to socket 0 (/root/candyPocket/uwsgi.sock)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Thu Jun 21 16:13:47 2018] ***
+compiled with version: 5.4.1 20160904 on 21 June 2018 08:07:23
+os: Linux-4.4.0-112-generic #135-Ubuntu SMP Fri Jan 19 11:48:36 UTC 2018
+nodename: xme01
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /root/candyPocket
+detected binary path: /usr/local/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/candyPocket
+your processes number limit is 128555
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 127.0.0.1:9000 fd 3
+uwsgi socket 0 inherited UNIX address /root/candyPocket/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xed1500
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486672 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xed1500 pid: 5849 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 5849)
+spawned uWSGI worker 1 (pid: 6012, cores: 1)
+spawned uWSGI worker 2 (pid: 6013, cores: 1)
+spawned uWSGI worker 3 (pid: 6014, cores: 1)
+spawned uWSGI worker 4 (pid: 6015, cores: 1)
+spawned uWSGI worker 5 (pid: 6016, cores: 1)
+spawned uWSGI http 1 (pid: 6017)
+
+var StellarSdk = require('stellar-sdk'); 
+function deposit(abc){
+StellarSdk.Network.useTestNetwork();
+var server = new StellarSdk.Server('https://xme01.7cto.com');
+var sourceKeys = StellarSdk.Keypair
+  .fromSecret('SBZPRBX7ETVLJSW5F32J4J2BLVIQU6VNWLT7QV2ZFXKAMAAOASCZEZZ4');
+var destinationId = 'ACXDKU4QXKUUCDEZQBKWM44R2K663WETXETCRCGO4JDUPT6XL3N7OJ4T';
+var transaction;
+
+var issuingKeys = StellarSdk.Keypair.fromSecret('SBLXZEYZ6NFHZWZJJL76PUHO42Z43LKMBHXWBC3WJPVVEJYPCPQKLNWQ');
+var movieDollar = new StellarSdk.Asset('MovieDollar', issuingKeys.publicKey());
+
+
+server.loadAccount(destinationId)
+  .catch(StellarSdk.NotFoundError, function (error) {
+    throw new Error('The destination account does not exist!');
+  })
+  .then(function() {
+    return server.loadAccount(sourceKeys.publicKey());
+  })
+  .then(function(sourceAccount) {
+    console.log(sourceAccount);
+    transaction = new StellarSdk.TransactionBuilder(sourceAccount)
+      .addOperation(StellarSdk.Operation.payment({
+        destination: destinationId,
+        asset: movieDollar,
+        amount: "10"
+      }))
+      .addMemo(StellarSdk.Memo.text('Test Transaction'))
+      .build();
+    transaction.sign(sourceKeys);
+    return server.submitTransaction(transaction);
+  })
+  .then(function(result) {
+    console.log('Success! Results:', result);
+  })
+  .catch(function(error) {
+    console.error('Something went wrong!', error);
+    return 'Something went wrong!'
+  });
+
+}
+
+Internal Server Error: /candy/depositOnline
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./candy/views.py", line 41, in depositOnline
+    msg = ctx.call('deposit','123456')
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 159, in _extract_result
+    ret = json.loads(output_last_line)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[uwsgi-http key: xme01.7cto.com client_addr: 127.0.0.1 client_port: 8832] hr_read(): Connection reset by peer [plugins/http/http.c line 917]
+[pid: 6012|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 775 bytes} [Thu Jun 21 16:13:55 2018] GET /candy/depositOnline => generated 107769 bytes in 607 msecs (HTTP/1.0 500) 4 headers in 130 bytes (1 switches on core 0)
+
+var StellarSdk = require('stellar-sdk'); 
+function deposit(abc){
+StellarSdk.Network.useTestNetwork();
+var server = new StellarSdk.Server('https://xme01.7cto.com');
+var sourceKeys = StellarSdk.Keypair
+  .fromSecret('SBZPRBX7ETVLJSW5F32J4J2BLVIQU6VNWLT7QV2ZFXKAMAAOASCZEZZ4');
+var destinationId = 'ACXDKU4QXKUUCDEZQBKWM44R2K663WETXETCRCGO4JDUPT6XL3N7OJ4T';
+var transaction;
+
+var issuingKeys = StellarSdk.Keypair.fromSecret('SBLXZEYZ6NFHZWZJJL76PUHO42Z43LKMBHXWBC3WJPVVEJYPCPQKLNWQ');
+var movieDollar = new StellarSdk.Asset('MovieDollar', issuingKeys.publicKey());
+
+
+server.loadAccount(destinationId)
+  .catch(StellarSdk.NotFoundError, function (error) {
+    throw new Error('The destination account does not exist!');
+  })
+  .then(function() {
+    return server.loadAccount(sourceKeys.publicKey());
+  })
+  .then(function(sourceAccount) {
+    console.log(sourceAccount);
+    transaction = new StellarSdk.TransactionBuilder(sourceAccount)
+      .addOperation(StellarSdk.Operation.payment({
+        destination: destinationId,
+        asset: movieDollar,
+        amount: "10"
+      }))
+      .addMemo(StellarSdk.Memo.text('Test Transaction'))
+      .build();
+    transaction.sign(sourceKeys);
+    return server.submitTransaction(transaction);
+  })
+  .then(function(result) {
+    console.log('Success! Results:', result);
+  })
+  .catch(function(error) {
+    console.error('Something went wrong!', error);
+    return 'Something went wrong!'
+  });
+
+}
+
+Internal Server Error: /candy/depositOnline
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./candy/views.py", line 41, in depositOnline
+    msg = ctx.call('deposit','123456')
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_abstract_runtime_context.py", line 37, in call
+    return self._call(name, *args)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 92, in _call
+    return self._eval("{identifier}.apply(this, {args})".format(identifier=identifier, args=args))
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 78, in _eval
+    return self.exec_(code)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_abstract_runtime_context.py", line 18, in exec_
+    return self._exec_(source)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 88, in _exec_
+    return self._extract_result(output)
+  File "/usr/local/lib/python2.7/dist-packages/execjs/_external_runtime.py", line 159, in _extract_result
+    ret = json.loads(output_last_line)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[pid: 6014|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 776 bytes} [Thu Jun 21 16:13:56 2018] GET /candy/depositOnline => generated 107770 bytes in 501 msecs (HTTP/1.0 500) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 6013|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 775 bytes} [Thu Jun 21 16:14:02 2018] GET /admin/candy/activity/ => generated 4648 bytes in 133 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 6015|app: 0|req: 1/4] 127.0.0.1 () {38 vars in 700 bytes} [Thu Jun 21 16:14:03 2018] GET /admin/jsi18n/ => generated 7758 bytes in 49 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 6016|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 775 bytes} [Thu Jun 21 16:14:03 2018] GET /admin/candy/activity/ => generated 4648 bytes in 132 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 6012|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 851 bytes} [Thu Jun 21 16:14:05 2018] GET /admin/candy/activity/3/change/ => generated 8295 bytes in 96 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 6014|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 709 bytes} [Thu Jun 21 16:14:05 2018] GET /admin/jsi18n/ => generated 7758 bytes in 14 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 6013|app: 0|req: 2/8] 127.0.0.1 () {40 vars in 824 bytes} [Thu Jun 21 16:14:07 2018] GET /admin/candy/ => generated 5445 bytes in 21 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 6015|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 820 bytes} [Thu Jun 21 16:14:08 2018] GET /admin/candy/record/ => generated 5473 bytes in 107 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 6016|app: 0|req: 2/10] 127.0.0.1 () {38 vars in 698 bytes} [Thu Jun 21 16:14:09 2018] GET /admin/jsi18n/ => generated 7758 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)

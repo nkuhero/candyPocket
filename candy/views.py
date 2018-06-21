@@ -13,6 +13,8 @@ import uuid
 import redis
 import redpackets
 import urllib
+import execjs
+import os
 
 conn = redis.Redis(host='127.0.0.1',port=6379)
 
@@ -20,7 +22,25 @@ conn = redis.Redis(host='127.0.0.1',port=6379)
 url = 'https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code'
 appId = 'wx8a5e679f92c2aa53'
 secret = '177b9c18065aea6793f3de17f049122e'
+def get_js():  
+    f = open("/root/deposit.js", 'r')  
+    line = f.readline()  
+    htmlstr = ''  
+    while line:  
+        htmlstr = htmlstr + line  
+        line = f.readline()  
+    return htmlstr  
 
+
+def depositOnline(request):
+
+    os.environ["NODE_PATH"] = "/root/node_modules"
+    jsstr = get_js()
+    print jsstr
+    ctx = execjs.compile(jsstr)
+    msg = ctx.call('deposit','123456')
+    result = {"result": msg}
+    return HttpResponse(json.dumps(result), content_type="application/json")
 
 def login(request):
  
@@ -133,11 +153,13 @@ def getPacket(request):
     return HttpResponse(json.dumps(resp), content_type="application/json")         
 
 def getAssetDesc(request):
+
+    activity_id = request.GET.get("activity_id")
+    activity = Activity.objects.get(id=activity_id)      
+    asset_desc = activity.asset.asset_desc
+   
     
-    asset_code = request.GET.get("asset_code")
-    asset = Asset.objects.get(asset_code=asset_code)  
-    
-    resp = {"desc" : asset.asset_desc }
+    resp = {"desc" : asset_desc, "rebate" : activity.rebate, "total" : activity.total }
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
 
@@ -249,7 +271,7 @@ def getCandyList(request):
     for activity in activityList:
         status = "已抢光" if activity.balance <= 0 else ""
             
-        result.append({"status" : status, "name" : activity.name, "id" : activity.id, "pic" : activity.asset.asset_pic, "each" : activity.num_for_every_person, "total" : activity.total / activity.num_for_every_person})
+        result.append({"source" : activity.asset.asset_source, "status" : status, "name" : activity.name, "id" : activity.id, "pic" : activity.asset.asset_pic, "each" : activity.num_for_every_person, "total" : activity.total / activity.num_for_every_person})
 
     return HttpResponse(json.dumps(result), content_type="application/json") 
 
@@ -314,7 +336,7 @@ def getUserAccount(request):
     result = []
 
     for a in account:
-        result.append({"name" : a.asset.asset_code, "balance" : a.balance, "pic" : a.asset.asset_pic})
+        result.append({"name" : a.asset.asset_code, "balance" : a.balance, "pic" : a.asset.asset_pic, "source" : a.asset.asset_source})
 
     return HttpResponse(json.dumps(result), content_type="application/json") 
 
