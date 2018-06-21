@@ -23,6 +23,7 @@ class Asset(models.Model):
     asset_issuer = models.CharField(max_length=100)
     asset_account = models.CharField(max_length=100, default="")
     asset_pic = models.CharField(max_length=100, default="")
+    asset_desc =  models.CharField(max_length=2000, default="")
 
     def __str__(self):
         return self.asset_code + "-" + self.asset_issuer

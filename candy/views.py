@@ -27,18 +27,16 @@ def login(request):
     code = request.GET.get("code") 
     response = urllib2.urlopen(url%(appId, secret, code))
     content = json.loads(response.read())
-    #key = str(uuid.uuid1())
+    key = str(uuid.uuid1())
     user_id = content["openid"] 
     try:
         user = User.objects.get(user_id=user_id)
     except User.DoesNotExist: 
         user = User(user_id=user_id)
         user.save()
-    #conn.set(key, json.dumps(content))
-    result = {"user_id" : user_id}
-
-   
-    
+    conn.set(key, json.dumps(content))
+    result = {"session_key" : key, "user_id" : user_id}
+ 
 
     return HttpResponse(json.dumps(result), content_type="application/json")
 
@@ -69,7 +67,9 @@ def checkUserLogin(request):
 
 def addUserInfo(request):
 
-    user_id = request.GET.get("user_id")
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)
+
     nickName = request.GET.get("nickName")
     userPic = request.GET.get("userPic")
 
@@ -85,7 +85,8 @@ def addUserInfo(request):
 
 def getPacket(request):
 
-    user_id = request.GET.get("user_id")
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)
 
     try:
         user = User.objects.get(user_id=user_id)
@@ -131,12 +132,23 @@ def getPacket(request):
     resp = {"code" : 200, "msg" : "success"} 
     return HttpResponse(json.dumps(resp), content_type="application/json")         
 
+def getAssetDesc(request):
+    
+    asset_code = request.GET.get("asset_code")
+    asset = Asset.objects.get(asset_code=asset_code)  
+    
+    resp = {"desc" : asset.asset_desc }
+
+    return HttpResponse(json.dumps(resp), content_type="application/json")
+
 
 
 def packet(request):
 
-    user_id = request.GET.get("user_id")
- 
+
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)
+
     asset_code = request.GET.get("asset_code")
     total = float(request.GET.get("total"))
     num = int(request.GET.get("num"))
@@ -165,7 +177,8 @@ def packet(request):
 
 def deposit(request):
     
-    user_id = request.GET.get("user_id")     
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)
     user = User.objects.get(user_id=user_id) 
     asset_code = request.GET.get("asset_code")
     address = request.GET.get("address")
@@ -187,7 +200,9 @@ def deposit(request):
 
 
 def getUserPacket(request):
-    user_id = request.GET.get("user_id")
+
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)  
 
     packetNo = request.GET.get("packetNo")     
     packet = Packet.objects.get(packetNo=packetNo)
@@ -200,13 +215,16 @@ def getUserPacket(request):
 
     get_num = len(userList)
 
-    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.user.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num}
+    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.user.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num,
+            
+            "pic" : packet.user.userPic, "assetPic" : packet.account.asset.asset_pic}
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
 
 def getAdminInfo(request):
 
-    user_id = request.GET.get("user_id")           
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)   
 
     activityList = Activity.objects.all() 
 
@@ -246,7 +264,8 @@ def getOneCandy(request):
 
 
 def getUserAccountBalance(request):
-    user_id = request.GET.get("user_id")
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)  
 
     if not user_id:
         resp = {"code" : 103, "msg" : "User does not login"}
@@ -268,7 +287,9 @@ def getUserAccountBalance(request):
     
 def checkAdmin(request):
 
-    user_id = request.GET.get("user_id")   
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)  
+
     activityList = Activity.objects.all()  
     hide = "hide"
     for activity in activityList: 
@@ -282,7 +303,9 @@ def checkAdmin(request):
 
 
 def getUserAccount(request):
-    user_id = request.GET.get("user_id")
+
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)  
 
     user = User.objects.get(user_id=user_id)
 
@@ -299,8 +322,9 @@ def getUserAccount(request):
 def getCandy(request):
 
     resp = {"code": 200, "msg" : "success"}
-  
-    user_id = request.GET.get("user_id")
+ 
+    session_key = request.GET.get("session_key") 
+    user_id = getUserInfo(session_key)   
     activity_id = request.GET.get("activity_id")
     
     try:
