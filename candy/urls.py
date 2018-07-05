@@ -17,7 +17,8 @@ urlpatterns = [
     url(r'^addUserInfo', views.addUserInfo),
     url(r'^checkAdmin', views.checkAdmin),
     url(r'^getAdminInfo', views.getAdminInfo),
-    url(r'^getAssetDesc', views.getAssetDesc),
+    url(r'^getAssetDesc$', views.getAssetDesc),
+    url(r'^getAssetDescNologin$', views.getAssetDescNologin),
 
 ]
 

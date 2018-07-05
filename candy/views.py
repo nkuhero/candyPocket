@@ -36,10 +36,9 @@ def depositOnline(request):
 
     os.environ["NODE_PATH"] = "/root/node_modules"
     jsstr = get_js()
-    print jsstr
     ctx = execjs.compile(jsstr)
-    msg = ctx.call('deposit','123456')
-    result = {"result": msg}
+    ctx.call('deposit','123456')
+    result = {"result": "success"}
     return HttpResponse(json.dumps(result), content_type="application/json")
 
 def login(request):
@@ -154,12 +153,32 @@ def getPacket(request):
 
 def getAssetDesc(request):
 
+    session_key = request.GET.get("session_key")
+    user_id = getUserInfo(session_key)
+    user = User.objects.get(user_id=user_id)
+
     activity_id = request.GET.get("activity_id")
     activity = Activity.objects.get(id=activity_id)      
     asset_desc = activity.asset.asset_desc
-   
-    
-    resp = {"desc" : asset_desc, "rebate" : activity.rebate, "total" : activity.total }
+    asset_name = activity.asset.asset_code
+
+    status = "已抢光" if activity.balance <= 0 else "立即领取"
+    record = Record.objects.filter(user=user, activity=activity)
+    if record and status != "已抢光":
+        status = "已领取"
+
+    resp = {"status": status, "name": asset_name,"desc" : asset_desc, "rebate" : activity.rebate, "total" : activity.total }
+
+    return HttpResponse(json.dumps(resp), content_type="application/json")
+
+
+
+def getAssetDescNologin(request):
+
+    asset_code = request.GET.get("asset_code")  
+    asset = Asset.objects.get(asset_code=asset_code)
+
+    resp = {"desc" : asset.asset_desc}
 
     return HttpResponse(json.dumps(resp), content_type="application/json")
 
@@ -233,11 +252,12 @@ def getUserPacket(request):
     userList = []
     for pr in packetRecord:
         
-        userList.append({"userName" : pr.user.userName, "getDate" : pr.get_date.strftime('%Y-%m-%d %H:%M:%S'), "total" : pr.total, "pic": pr.user.userPic})
+        userList.append({"value" : pr.total * packet.account.asset.asset_cny, "userName" : pr.user.userName, "getDate" : pr.get_date.strftime('%Y-%m-%d %H:%M:%S'), "getDateStamp": pr.get_date,  "total" : pr.total, "pic": pr.user.userPic})
 
     get_num = len(userList)
+    get_value = get_num * packet.account.asset.asset_cny
 
-    resp = {"userList" : userList, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.user.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num,
+    resp = {"userList" : userList, "get_value" : get_value, "get_num" : get_num, "packetNo" : packetNo, "userName" : packet.user.userName, "candyName" : packet.account.asset.asset_code, "total" : packet.total, "num" : packet.num,
             
             "pic" : packet.user.userPic, "assetPic" : packet.account.asset.asset_pic}
 
@@ -264,13 +284,18 @@ def getAdminInfo(request):
 
 
 def getCandyList(request):
+    session_key = request.GET.get("session_key")
+    user_id = getUserInfo(session_key)
+    user = User.objects.get(user_id=user_id)
 
     activityList = Activity.objects.all() 
     result = []
 
     for activity in activityList:
-        status = "已抢光" if activity.balance <= 0 else ""
-            
+        status = "已抢光" if activity.balance <= 0 else "立即领取"
+        record = Record.objects.filter(user=user, activity=activity)
+        if record and status != "已抢光":
+            status = "已领取"
         result.append({"source" : activity.asset.asset_source, "status" : status, "name" : activity.name, "id" : activity.id, "pic" : activity.asset.asset_pic, "each" : activity.num_for_every_person, "total" : activity.total / activity.num_for_every_person})
 
     return HttpResponse(json.dumps(result), content_type="application/json") 
@@ -336,7 +361,7 @@ def getUserAccount(request):
     result = []
 
     for a in account:
-        result.append({"name" : a.asset.asset_code, "balance" : a.balance, "pic" : a.asset.asset_pic, "source" : a.asset.asset_source})
+        result.append({"name" : a.asset.asset_code, "balance" : a.balance, "pic" : a.asset.asset_pic, "source" : a.asset.asset_source, "value" : a.balance * a.asset.asset_cny})
 
     return HttpResponse(json.dumps(result), content_type="application/json") 
 
